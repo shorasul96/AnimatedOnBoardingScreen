@@ -14,6 +14,15 @@
 		87303DF829511B7F0005F050 /* AnimatedOnBoardingScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87303DF729511B7F0005F050 /* AnimatedOnBoardingScreenTests.swift */; };
 		87303E0229511B7F0005F050 /* AnimatedOnBoardingScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87303E0129511B7F0005F050 /* AnimatedOnBoardingScreenUITests.swift */; };
 		87303E0429511B7F0005F050 /* AnimatedOnBoardingScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87303E0329511B7F0005F050 /* AnimatedOnBoardingScreenUITestsLaunchTests.swift */; };
+		87303E1629511BA40005F050 /* 57081-graphics-design-lottie-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 87303E1029511BA40005F050 /* 57081-graphics-design-lottie-animation.json */; };
+		87303E1729511BA40005F050 /* 28595-website-building-lottie-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 87303E1129511BA40005F050 /* 28595-website-building-lottie-animation.json */; };
+		87303E1829511BA40005F050 /* 51083-website-interface.json in Resources */ = {isa = PBXBuildFile; fileRef = 87303E1229511BA40005F050 /* 51083-website-interface.json */; };
+		87303E1929511BA40005F050 /* 107369-website-design-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 87303E1329511BA40005F050 /* 107369-website-design-animation.json */; };
+		87303E1A29511BA40005F050 /* 129574-ginger-bread-socks-christmas.json in Resources */ = {isa = PBXBuildFile; fileRef = 87303E1429511BA40005F050 /* 129574-ginger-bread-socks-christmas.json */; };
+		87303E1B29511BA40005F050 /* 110106-am-impact-zorg-websites.json in Resources */ = {isa = PBXBuildFile; fileRef = 87303E1529511BA40005F050 /* 110106-am-impact-zorg-websites.json */; };
+		87303E1E29511C6D0005F050 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 87303E1D29511C6D0005F050 /* Lottie */; };
+		87303E2229511D6B0005F050 /* OnBoardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87303E2129511D6B0005F050 /* OnBoardingItem.swift */; };
+		87303E2729511F660005F050 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87303E2629511F660005F050 /* OnBoardingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,14 @@
 		87303DFD29511B7F0005F050 /* AnimatedOnBoardingScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedOnBoardingScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87303E0129511B7F0005F050 /* AnimatedOnBoardingScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedOnBoardingScreenUITests.swift; sourceTree = "<group>"; };
 		87303E0329511B7F0005F050 /* AnimatedOnBoardingScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedOnBoardingScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87303E1029511BA40005F050 /* 57081-graphics-design-lottie-animation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "57081-graphics-design-lottie-animation.json"; sourceTree = "<group>"; };
+		87303E1129511BA40005F050 /* 28595-website-building-lottie-animation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "28595-website-building-lottie-animation.json"; sourceTree = "<group>"; };
+		87303E1229511BA40005F050 /* 51083-website-interface.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "51083-website-interface.json"; sourceTree = "<group>"; };
+		87303E1329511BA40005F050 /* 107369-website-design-animation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "107369-website-design-animation.json"; sourceTree = "<group>"; };
+		87303E1429511BA40005F050 /* 129574-ginger-bread-socks-christmas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "129574-ginger-bread-socks-christmas.json"; sourceTree = "<group>"; };
+		87303E1529511BA40005F050 /* 110106-am-impact-zorg-websites.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "110106-am-impact-zorg-websites.json"; sourceTree = "<group>"; };
+		87303E2129511D6B0005F050 /* OnBoardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingItem.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		87303E2629511F660005F050 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87303E1E29511C6D0005F050 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,12 @@
 		87303DDA29511B7E0005F050 = {
 			isa = PBXGroup;
 			children = (
+				87303E1129511BA40005F050 /* 28595-website-building-lottie-animation.json */,
+				87303E1229511BA40005F050 /* 51083-website-interface.json */,
+				87303E1029511BA40005F050 /* 57081-graphics-design-lottie-animation.json */,
+				87303E1329511BA40005F050 /* 107369-website-design-animation.json */,
+				87303E1529511BA40005F050 /* 110106-am-impact-zorg-websites.json */,
+				87303E1429511BA40005F050 /* 129574-ginger-bread-socks-christmas.json */,
 				87303DE529511B7E0005F050 /* AnimatedOnBoardingScreen */,
 				87303DF629511B7F0005F050 /* AnimatedOnBoardingScreenTests */,
 				87303E0029511B7F0005F050 /* AnimatedOnBoardingScreenUITests */,
@@ -94,6 +118,8 @@
 		87303DE529511B7E0005F050 /* AnimatedOnBoardingScreen */ = {
 			isa = PBXGroup;
 			children = (
+				87303E2029511D410005F050 /* Model */,
+				87303E1F29511D330005F050 /* View */,
 				87303DE629511B7E0005F050 /* AnimatedOnBoardingScreenApp.swift */,
 				87303DE829511B7E0005F050 /* ContentView.swift */,
 				87303DEA29511B7F0005F050 /* Assets.xcassets */,
@@ -127,6 +153,22 @@
 			path = AnimatedOnBoardingScreenUITests;
 			sourceTree = "<group>";
 		};
+		87303E1F29511D330005F050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87303E2629511F660005F050 /* OnBoardingScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87303E2029511D410005F050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87303E2129511D6B0005F050 /* OnBoardingItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +185,9 @@
 			dependencies = (
 			);
 			name = AnimatedOnBoardingScreen;
+			packageProductDependencies = (
+				87303E1D29511C6D0005F050 /* Lottie */,
+			);
 			productName = AnimatedOnBoardingScreen;
 			productReference = 87303DE329511B7E0005F050 /* AnimatedOnBoardingScreen.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 87303DDA29511B7E0005F050;
+			packageReferences = (
+				87303E1C29511C6D0005F050 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 87303DE429511B7E0005F050 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +279,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87303E1629511BA40005F050 /* 57081-graphics-design-lottie-animation.json in Resources */,
+				87303E1729511BA40005F050 /* 28595-website-building-lottie-animation.json in Resources */,
+				87303E1829511BA40005F050 /* 51083-website-interface.json in Resources */,
+				87303E1929511BA40005F050 /* 107369-website-design-animation.json in Resources */,
+				87303E1A29511BA40005F050 /* 129574-ginger-bread-socks-christmas.json in Resources */,
+				87303E1B29511BA40005F050 /* 110106-am-impact-zorg-websites.json in Resources */,
 				87303DEE29511B7F0005F050 /* Preview Assets.xcassets in Resources */,
 				87303DEB29511B7F0005F050 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87303E2729511F660005F050 /* OnBoardingScreen.swift in Sources */,
 				87303DE929511B7E0005F050 /* ContentView.swift in Sources */,
 				87303DE729511B7E0005F050 /* AnimatedOnBoardingScreenApp.swift in Sources */,
+				87303E2229511D6B0005F050 /* OnBoardingItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +639,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87303E1C29511C6D0005F050 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87303E1D29511C6D0005F050 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87303E1C29511C6D0005F050 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87303DDB29511B7E0005F050 /* Project object */;
 }
